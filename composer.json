@@ -1,0 +1,17 @@
+{
+    "name": "alexeyyashin/fastresponse",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Yashin",
+            "email": "me@alexeyyashin.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlexeyYashin\\Fastresponce\\": "src/"
+        }
+    },
+    "require": {}
+}
