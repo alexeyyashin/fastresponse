@@ -45,7 +45,7 @@ class JsonResponseError
             $this->jsonReply->setCritical();
 
             if ($this->jsonReply->config(JsonResponse::CONFIG_PUSH_AFTER_CRITICAL)) {
-                $this->jsonReply->reply($this->code());
+                $this->jsonReply->reply($this->statusCode());
             }
         }
 
